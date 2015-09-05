@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1C8898611B6CAACB00C51487 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8898601B6CAACB00C51487 /* main.swift */; };
+		1C8898681B6CAB7900C51487 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8898671B6CAB7900C51487 /* Subject.swift */; };
+		1C88986A1B6CAC1600C51487 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8898691B6CAC1600C51487 /* Observer.swift */; };
+		1C88986C1B6CAE2100C51487 /* DisplayElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C88986B1B6CAE2100C51487 /* DisplayElement.swift */; };
+		1C88986E1B6CAED900C51487 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C88986D1B6CAED900C51487 /* WeatherData.swift */; };
+		1C8898701B6CC2BB00C51487 /* CurrentConditionsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C88986F1B6CC2BB00C51487 /* CurrentConditionsDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		1C88985D1B6CAACB00C51487 /* Weather-O-Rama */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Weather-O-Rama"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8898601B6CAACB00C51487 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C8898671B6CAB7900C51487 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		1C8898691B6CAC1600C51487 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		1C88986B1B6CAE2100C51487 /* DisplayElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayElement.swift; sourceTree = "<group>"; };
+		1C88986D1B6CAED900C51487 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		1C88986F1B6CC2BB00C51487 /* CurrentConditionsDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentConditionsDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				1C8898601B6CAACB00C51487 /* main.swift */,
+				1C8898671B6CAB7900C51487 /* Subject.swift */,
+				1C8898691B6CAC1600C51487 /* Observer.swift */,
+				1C88986B1B6CAE2100C51487 /* DisplayElement.swift */,
+				1C88986D1B6CAED900C51487 /* WeatherData.swift */,
+				1C88986F1B6CC2BB00C51487 /* CurrentConditionsDisplay.swift */,
 			);
 			path = "Weather-O-Rama";
 			sourceTree = "<group>";
@@ -118,7 +133,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8898701B6CC2BB00C51487 /* CurrentConditionsDisplay.swift in Sources */,
+				1C8898681B6CAB7900C51487 /* Subject.swift in Sources */,
+				1C88986E1B6CAED900C51487 /* WeatherData.swift in Sources */,
+				1C88986A1B6CAC1600C51487 /* Observer.swift in Sources */,
 				1C8898611B6CAACB00C51487 /* main.swift in Sources */,
+				1C88986C1B6CAE2100C51487 /* DisplayElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
